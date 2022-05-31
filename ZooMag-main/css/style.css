@@ -1,0 +1,213 @@
+/* montserrat-regular - latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/montserrat-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/montserrat-v23-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/montserrat-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-900 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/montserrat-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.wrapper{
+    max-width: 1196px;
+    margin: 0 auto;
+
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item{
+    margin-right: 24px;
+}
+.header_link{
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-shadow: 0 0 0.01em black, 0 0 6em black;
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_link2{
+    font-family: 'Montserrat ExtraBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    color: #000000;
+    text-decoration: none;
+}
+.header_link:hover,.header_link:focus, .header_link:active{
+    opacity: .75;
+}
+.header{
+    background-color: #FFD1B7;
+}
+.call_logo{
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    left: 1240px;
+}
+.cart_logo{
+    position: absolute;
+    width: 44px;
+    height: 41px;
+    left: 1440px;
+
+}
+.main{
+    position: absolute;
+    width: 1900px;
+    height: 958px;
+    left: 0px;
+    top: 67px;
+
+
+    background-color: #FFD1B7;
+}
+.intro {
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 288px;
+}
+.intro_title {
+    position: absolute;
+    width: 557px;
+    height: 181px;
+    left: 215px;
+    top: 288px;
+
+    font-family: 'Montserrat ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 22px;
+    text-shadow: 0 15 0em black, 0 2 5em #262626;
+
+    color: #000000;
+}
+
+.intro_subtitle{
+    position: absolute;
+    width: 452px;
+    height: 146px;
+    left: 215px;
+    top: 469px;
+
+
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+    text-shadow: 0 15 0em black, 0 2 5em #262626;
+
+    color: #000000;
+}
+.dog{
+    padding-top: 60px;
+    position: absolute;
+    width: 650px;
+    height: 766px;
+    left: 787px;
+    top: 193px;
+}
+.button{
+    position: absolute;
+    width: 280px;
+    height: 90px;
+    left: 215px;
+    top: 595px;
+
+    background: #0A0A0A;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 5px #212121;
+}
+.button_link{
+    position: absolute;
+    width: 203px;
+    height: 32px;
+    left: 253px;
+    top: 624px;
+
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.background2{
+    position: absolute;
+    width: 1600px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(105.37deg, #FFFFFF 8.95%, rgba(36, 23, 23, 0) 91.82%);
+}

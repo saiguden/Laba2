@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Остались вопросы?</title>
+
+    <link rel="stylesheet" href="forma.css">
+    
+    <style>
+        a { 
+         text-decoration: none; 
+        } 
+       </style>
+</head>
+
+<body>
+    
+<div id="container">
+    <a href="/ZooMag-main/index.html"><h1>&bull; Lovely Friends &bull;</h1></a>
+    <div class="underline">
+    </div>
+   
+    <form action="#" method="get" id="contact_form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваше имя" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" placeholder="Ваш e-mail адресс" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваш номер телефона" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="subject">
+        <label for="subject"></label>
+        <select placeholder="subject line" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Тема вопроса</option>
+          <option>Я бы хотел приобрести себе друга</option>
+          <option>Я бы хотел устроиться на работу</option>
+          <option>Другой вопрос</option>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" placeholder="Напишите ваш вопрос подробнее" id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Отправить сообщение" id="form_button" />
+      </div>
+    </form>
+  </div>
+</body>
+</html>
